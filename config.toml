@@ -8,9 +8,9 @@ contentDir             = "content"
 languageCode           = "en-us"
 layoutDir              = "layouts"
 publishDir             = "public"
-theme                  = "hugo-theme-pixyll"
+theme                  = "pixyll"
 themesDir              = "../.."
-title                  = "The Void Above"
+title                  = "Pixyll"
 enableEmoji            = true
 DefaultContentLanguage = "en"
 
