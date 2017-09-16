@@ -9,7 +9,7 @@ languageCode           = "en-us"
 layoutDir              = "layouts"
 publishDir             = "public"
 theme                  = "pixyll"
-themesDir              = "./site/themes/pixyll"
+themesDir              = "./themes"
 title                  = "Pixyll"
 enableEmoji            = true
 DefaultContentLanguage = "en"
@@ -18,8 +18,6 @@ DefaultContentLanguage = "en"
 [Languages.en]
 weight = 1
 
-[Languages.ru]
-weight = 2
 
 [blackfriday]
 angledQuotes = true
