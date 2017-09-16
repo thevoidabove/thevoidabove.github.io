@@ -1,3 +1,40 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+archetypeDir           = "archetypes"
+author                 = "admin"
+baseUrl                = "https://thevoidabove.github.io"
+buildDrafts            = false
+relativeURLs           = true
+canonifyUrls           = true
+contentDir             = "content"
+languageCode           = "en-us"
+layoutDir              = "layouts"
+publishDir             = "public"
+theme                  = "hugo-theme-pixyll"
+themesDir              = "../.."
+title                  = "The Void Above"
+enableEmoji            = true
+DefaultContentLanguage = "en"
+
+[Languages]
+[Languages.en]
+weight = 1
+
+[Languages.ru]
+weight = 2
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
+[params]
+  description = "Void static site"
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  #search_engine = true
+  #google_analytics_id = ""
+  twitter_username = "aksbuzz"
+  #disqus_shortname = ""
+  paginate = true
